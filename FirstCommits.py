@@ -39,3 +39,7 @@ def main():
             a = float(input("Pirmais skaitlis: "))
             b = float(input("Otrais skaitlis: "))
             print("Rezultāts:", multiply(a, b))
+        elif choice == "4":
+            a = float(input("Pirmais skaitlis: "))
+            b = float(input("Otrais skaitlis: "))
+            print("Rezultāts:", divide(a, b))
