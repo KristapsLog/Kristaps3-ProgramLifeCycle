@@ -14,10 +14,9 @@ def divide(x, y):
         return "Error: Division by zero"
     return x / y
 
-def main():
-    a = int(input("Ievadiet pirmo skaitli: "))
-    b = int(input("Ievadiet otro skaitli: "))
-    print(add(a, b))
-    print(subtract(a, b))
-    print(multiply(a, b))
-    print(divide(a, b))
+def menu():
+    print("1. Saskaitīt")
+    print("2. Atņemt")
+    print("3. Reizināt")
+    print("4. Dalīt")
+    print("5. Iziet")
