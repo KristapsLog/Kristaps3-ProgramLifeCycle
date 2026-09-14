@@ -31,3 +31,11 @@ def main():
             a = float(input("Pirmais skaitlis: "))
             b = float(input("Otrais skaitlis: "))
             print("Rezultāts:", add(a, b))
+        elif choice == "2":
+            a = float(input("Pirmais skaitlis: "))
+            b = float(input("Otrais skaitlis: "))
+            print("Rezultāts:", subtract(a, b))
+        elif choice == "3":
+            a = float(input("Pirmais skaitlis: "))
+            b = float(input("Otrais skaitlis: "))
+            print("Rezultāts:", multiply(a, b))
