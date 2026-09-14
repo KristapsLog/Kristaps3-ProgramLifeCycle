@@ -13,3 +13,7 @@ def divide(x, y):
     if y == 0 or x == 0:
         return "Error: Division by zero"
     return x / y
+
+def main():
+    print(add(5, 3))        # Output: 8
+    print(subtract(5, 3))   # Output: 2
