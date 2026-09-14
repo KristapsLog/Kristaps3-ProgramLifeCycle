@@ -27,3 +27,7 @@ def main():
         choice = input("Izvēle: ")
         if choice == "5":
             break
+        if choice == "1":
+            a = float(input("Pirmais skaitlis: "))
+            b = float(input("Otrais skaitlis: "))
+            print("Rezultāts:", add(a, b))
