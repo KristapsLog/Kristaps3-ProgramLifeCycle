@@ -20,3 +20,10 @@ def menu():
     print("3. Reizināt")
     print("4. Dalīt")
     print("5. Iziet")
+
+def main():
+    while True:
+        menu()
+        choice = input("Izvēle: ")
+        if choice == "5":
+            break
