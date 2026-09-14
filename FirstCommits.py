@@ -17,3 +17,5 @@ def divide(x, y):
 def main():
     print(add(5, 3))        # Output: 8
     print(subtract(5, 3))   # Output: 2
+    print(multiply(5, 3))   # Output: 15
+    print(divide(5, 0))     # Output: Error: Division by zero
