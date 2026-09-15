@@ -14,6 +14,9 @@ def divide(x, y):
         return "Error: Division by zero"
     return x / y
 
+def power(x, y):
+    return x ** y
+
 def menu():
     print("1. Saskaitīt")
     print("2. Atņemt")
