@@ -58,5 +58,6 @@ def main():
             a = get_number("Pamats: ")
             b = get_number("Kāpinātājs: ")
             print("Rezultāts:", power(a, b))
-
+        else:
+            print("Nepareiza izvēle, mēģini vēlreiz!")
 main()
