@@ -43,3 +43,5 @@ def main():
             a = float(input("Pirmais skaitlis: "))
             b = float(input("Otrais skaitlis: "))
             print("Rezultāts:", divide(a, b))
+
+main()
