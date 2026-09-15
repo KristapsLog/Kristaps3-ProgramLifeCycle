@@ -44,22 +44,27 @@ def main():
             a = get_number("Pirmais skaitlis: ")
             b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", add(a, b))
+            history.append(f"{a} , {b} -> {add(a, b)}")            
         elif choice == "2":
             a = get_number("Pirmais skaitlis: ")
             b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", subtract(a, b))
+            history.append(f"{a} , {b} -> {subtract(a, b)}")
         elif choice == "3":
             a = get_number("Pirmais skaitlis: ")
             b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", multiply(a, b))
+            history.append(f"{a} , {b} -> {multiply(a, b)}")
         elif choice == "4":
             a = get_number("Pirmais skaitlis: ")
             b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", divide(a, b))
+            history.append(f"{a} , {b} -> {divide(a, b)}")
         elif choice == "5":
             a = get_number("Pamats: ")
             b = get_number("Kāpinātājs: ")
             print("Rezultāts:", power(a, b))
+            history.append(f"{a} , {b} -> {power(a, b)}")
         else:
             print("Nepareiza izvēle, mēģini vēlreiz!")
 main()
