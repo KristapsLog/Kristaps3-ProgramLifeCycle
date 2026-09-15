@@ -39,7 +39,7 @@ def main():
     while True:
         menu()
         choice = input("Izvēle: ")
-        if choice == "6":
+        if choice == "7":
             break
         if choice == "1":
             a = get_number("Pirmais skaitlis: ")
@@ -66,6 +66,9 @@ def main():
             b = get_number("Kāpinātājs: ")
             print("Rezultāts:", power(a, b))
             history.append(f"{a} , {b} -> {power(a, b)}")
+        elif choice == "6":
+            for entry in history:
+                print(entry)
         else:
             print("Nepareiza izvēle, mēģini vēlreiz!")
 main()
