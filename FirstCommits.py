@@ -35,8 +35,8 @@ def main():
         if choice == "5":
             break
         if choice == "1":
-            a = float(input("Pirmais skaitlis: "))
-            b = float(input("Otrais skaitlis: "))
+            a = get_number("Pirmais skaitlis: ")
+            b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", add(a, b))
         elif choice == "2":
             a = float(input("Pirmais skaitlis: "))
