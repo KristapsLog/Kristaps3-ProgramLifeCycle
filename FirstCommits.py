@@ -36,7 +36,7 @@ def main():
     while True:
         menu()
         choice = input("Izvēle: ")
-        if choice == "5":
+        if choice == "6":
             break
         if choice == "1":
             a = get_number("Pirmais skaitlis: ")
@@ -54,5 +54,9 @@ def main():
             a = get_number("Pirmais skaitlis: ")
             b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", divide(a, b))
+        elif choice == "5":
+            a = get_number("Pamats: ")
+            b = get_number("Kāpinātājs: ")
+            print("Rezultāts:", power(a, b))
 
 main()
