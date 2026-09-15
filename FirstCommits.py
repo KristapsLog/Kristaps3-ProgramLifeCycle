@@ -21,7 +21,8 @@ def menu():
     print("4. Dalīt")
     print("5. Iziet")
 
-# TODO: Application does not handle invalid input, such as letters or symbols.
+def get_number(prompt):
+    return float(input(prompt))
 
 def main():
     while True:
