@@ -43,8 +43,8 @@ def main():
             b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", subtract(a, b))
         elif choice == "3":
-            a = float(input("Pirmais skaitlis: "))
-            b = float(input("Otrais skaitlis: "))
+            a = get_number("Pirmais skaitlis: ")
+            b = get_number("Otrais skaitlis: ")
             print("Rezultāts:", multiply(a, b))
         elif choice == "4":
             a = float(input("Pirmais skaitlis: "))
