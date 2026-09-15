@@ -22,7 +22,8 @@ def menu():
     print("2. Atņemt")
     print("3. Reizināt")
     print("4. Dalīt")
-    print("5. Iziet")
+    print("5. Kāpināt")
+    print("6. Iziet")
 
 def get_number(prompt):
     while True:
