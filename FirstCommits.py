@@ -22,7 +22,11 @@ def menu():
     print("5. Iziet")
 
 def get_number(prompt):
-    return float(input(prompt))
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Lūdzu ievadi derīgu skaitli!")
 
 def main():
     while True:
