@@ -1,5 +1,7 @@
 print("Kalkulatora Izveide")
 
+history = []
+
 def add(x, y):
     return x + y
 
