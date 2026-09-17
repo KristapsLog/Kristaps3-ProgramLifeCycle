@@ -1,0 +1,1 @@
+Pirmo git izmantošanas commit
